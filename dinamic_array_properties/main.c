@@ -2,7 +2,16 @@
 #include <malloc.h>
 #include <math.h>
 
-int calculation_func(long double *input_array_ptr, long long int num_of_el, long double *max_el_ptr, long double *min_el_ptr, long double *average_ptr, long double *standart_dev_ptr) {
+
+
+
+
+
+
+
+int calculation_func(long double *input_array_ptr, long long int num_of_el, \
+	long double *max_el_ptr, long double *min_el_ptr, long double *average_ptr, \
+	long double *standart_dev_ptr) {
 
 	*max_el_ptr = *input_array_ptr;
 	*min_el_ptr = *input_array_ptr;
@@ -35,6 +44,12 @@ int calculation_func(long double *input_array_ptr, long long int num_of_el, long
 	return 0;
 
 }
+
+
+
+
+
+
 
 
 int main() {
